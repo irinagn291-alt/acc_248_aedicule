@@ -1,0 +1,14 @@
+Aedicule is a private niche for catching a day's feeling as a glow, attaching a photo or voice while it is still Live, and later drawing a cooled Wick or Capsule as a Ray. It is for people who want a quiet, on-device ritual of mood, memory, and time—not a social feed or account.
+
+• Catch a feeling into today's glow: Ember, Hush, Bloom, Tide, Hearth, Gleam, Still, or Lift
+• Live glows sit in the Glass niche; Midnight folds Live to Wick and freezes photo and voice attach
+• Attach Photo or Voice only while a glow is Live; play a saved clip
+• After more than 30 days, a glow becomes a Capsule in the Garden
+• Draw samples a cooled Wick or Capsule as a Ray; Live today stays out of the pool
+• Garden living bloom and year collage of Capsules
+• Moments, Garden, and Settings in a dark, portrait niche UI
+• Onboarding on first run, and Re-run onboarding from Settings
+• Contact support link in Settings
+• Reset all data on this device
+
+Data stays on this device. Feelings, photos, and voice clips are saved locally.

@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04791A5E546B70E1005C4675 /* NicheLatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC22C7168482417515D3A4F /* NicheLatchTests.swift */; };
+		08C5697EDA2D5496ADF17663 /* GlowCoverflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF2682B3FFD8E9AE8A4DB3 /* GlowCoverflow.swift */; };
+		099A2FC8DC2950A0D9743A5B /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 44259AC733E8950CF3A0A947 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12DDACEF09BA9CDC217E655E /* NicheDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC58913DA435743D01418F /* NicheDocument.swift */; };
+		1F4E3A1A3CADB6D5A1FE9C19 /* RayMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84357158D5C4607481004CEF /* RayMark.swift */; };
+		22E8EFF2047BCD904D7D56DA /* NicheClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2462E1FD0A5D7E598CCF18 /* NicheClientTests.swift */; };
+		2669EBA9246BE6CCEDDB6700 /* WickFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175270DA37A924158C5772A2 /* WickFold.swift */; };
+		2AD7DBEB5495F25E602C2964 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = C150A6E53C3C10A96DD459A2 /* OneSignalFramework */; };
+		3141ED0AA0C3641DA219A5EA /* NicheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610D51FE97440445FD95832 /* NicheStore.swift */; };
+		31E08E2D042C74B618F95639 /* AediculeGMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344078454186A07364EF631 /* AediculeGMT.swift */; };
+		3BF57F291FFF8404113276E2 /* CatchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBFD70472ED3BBAC01D7EED /* CatchSheet.swift */; };
+		453D7F9BDBD7746622839A6D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 85E4F35840693D07C1B47315 /* Alamofire */; };
+		479E1D3305F04C44A4675958 /* NicheOnboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D86257271024807FCBEA8A8 /* NicheOnboard.swift */; };
+		4B924BD1FA82DB736240821B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD46F4476CAD032E5C16CEE /* ContentView.swift */; };
+		4D6C45D5C6387F72633D792B /* VotiveDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25A8B0A8A5508CBCA917D3 /* VotiveDay.swift */; };
+		4EA2EF078EEFF408F8D6280E /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 6D622B1499EDB09C25D209E9 /* OneSignalInAppMessages */; };
+		4EE457FE2FA8F8BA6078F98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30959B3619F9ED3E53755D4D /* Assets.xcassets */; };
+		501FC2F6B14841CAD1D23C9C /* NicheSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B24013C4655AD2FDE98 /* NicheSettings.swift */; };
+		50BFC36988FE91782FE2E071 /* NicheWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D205A95EF599819461B233 /* NicheWatch.swift */; };
+		529DC65223E195E029C1B06D /* NicheStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA2D247CEB4326EB5FB50F /* NicheStoreTests.swift */; };
+		5DACE5238C2489AFC0F94233 /* NicheTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79578E755101C3BA7F6D65F /* NicheTint.swift */; };
+		6A3DFB92F1EA183B9C8C35E0 /* NicheFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0898E42DCD244B82E6907E /* NicheFigures.swift */; };
+		6AD6E7EC2799459F0F7BACEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E53EB5E56BF50DFB548D095 /* AppDelegate.swift */; };
+		6DB09A23F55F1F848DB46888 /* NicheCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FE13A96F5BA4CFF612F51F /* NicheCopy.swift */; };
+		751AEDD54AC689238A3DBC54 /* AediculeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1751AF88157E668C58C22BA4 /* AediculeTests.swift */; };
+		76FDC402543AAC4C2AD35851 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEFFFF0A12F106F79CF0D7F /* NotificationService.swift */; };
+		7E4879FDABDE5673956071A4 /* NicheCraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AAAB0B475BCD4E2935F9 /* NicheCraft.swift */; };
+		7F7064741AB0D8D6F9733E7D /* AediculeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83D54688EC322F227421BEE /* AediculeApp.swift */; };
+		8393E1A1EF3DD954EAFFC533 /* DrawRay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BD5704728F64A0254A75E /* DrawRay.swift */; };
+		83AC1C843ADE4347437DBAFC /* NicheClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260A53A83DD9079E7418E4C4 /* NicheClient.swift */; };
+		850425C8CC000709C482E364 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = A3427EAE668BB8F4F8D62D1B /* OneSignalExtension */; };
+		853410C8142F4ED0F914AE95 /* NicheLatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC3A48C787224790ED55E1 /* NicheLatch.swift */; };
+		86EE4AD3D5F669BFDAA28FB7 /* NicheShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A988CA19FDFB1D1F1EFEE60 /* NicheShell.swift */; };
+		9240EF289027211C302CFD6B /* NicheHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825F192F064C9B819EA1F66 /* NicheHold.swift */; };
+		93C54EDF4B26F64B36ABE553 /* CapsuleBloom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85781E5361BF2F839647148F /* CapsuleBloom.swift */; };
+		9571DEEA647E2C0E25CB98F2 /* GlowAlcove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0402BDFAEFB01D052C923A52 /* GlowAlcove.swift */; };
+		9FCFC47C56C9BCABC0D9E093 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4529D9546DB7227F0BE30DA /* APIConfig.swift */; };
+		9FEC3CF7083D9C304E25871A /* Glow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E45AEBEEF2EA9433389E8 /* Glow.swift */; };
+		A9FA8B7F8CF79897B7BAA424 /* RayMarkPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AACD23A1DB77741AC3F63 /* RayMarkPane.swift */; };
+		BFA892D5A24EBF79266E50D6 /* NicheWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4B6ABA2EA1E4C7330DB01 /* NicheWash.swift */; };
+		C711F41A73269E4B8C01432D /* GardenPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCFA26BD6A21A2ADDD1B27 /* GardenPane.swift */; };
+		C85C2C25DE78F9808E0F0144 /* NicheFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57890BC4992C8CB3D5E6CA5F /* NicheFoldTests.swift */; };
+		C9A9C23B3E6B62B6F2F351BB /* NicheWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACADCA4F65094300A0F3B96 /* NicheWatchTests.swift */; };
+		CC415D96FCB8F64CAAFC76BF /* WickChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E0B449ED75B043912AABE /* WickChip.swift */; };
+		CEB3D03FDE0ED0F3A4E32056 /* WickPace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C7E4E5EFEBFC5A8656D622 /* WickPace.swift */; };
+		D007583AE559AC5BCCDD82FD /* MomentsPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCFB464F61CEAA0D36A13F6 /* MomentsPane.swift */; };
+		EC56685F6C8FC7DD9FABD193 /* NicheStoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9E76DFDCD6D20ADF280AC /* NicheStoring.swift */; };
+		ECADEF2C43B852764A07AD0A /* NicheFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90F1BB8B7BA2F5569E678C /* NicheFace.swift */; };
+		F0FA104A310B86ED38752FFD /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27914E0B5F68DC61CA6FFAB /* FamilyInvariantTests.swift */; };
+		F61E1D99297E5AC283149AC7 /* NicheSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40209938F92BDB39AF1BB9AC /* NicheSeed.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		703AD04FFDFF69A80BDAA824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DFD4FBA2BA2990197BB18DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4994AD34CC2725847D57F21;
+			remoteInfo = Aedicule;
+		};
+		73FD37E04C06DF708166C543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DFD4FBA2BA2990197BB18DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1C5EC57A18BD710329732C;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F74AEC927591BBA0A403307 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				099A2FC8DC2950A0D9743A5B /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0402BDFAEFB01D052C923A52 /* GlowAlcove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowAlcove.swift; sourceTree = "<group>"; };
+		044AACD23A1DB77741AC3F63 /* RayMarkPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayMarkPane.swift; sourceTree = "<group>"; };
+		04798B24013C4655AD2FDE98 /* NicheSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheSettings.swift; sourceTree = "<group>"; };
+		0825F192F064C9B819EA1F66 /* NicheHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheHold.swift; sourceTree = "<group>"; };
+		0EDA2D247CEB4326EB5FB50F /* NicheStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheStoreTests.swift; sourceTree = "<group>"; };
+		1751AF88157E668C58C22BA4 /* AediculeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AediculeTests.swift; sourceTree = "<group>"; };
+		175270DA37A924158C5772A2 /* WickFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickFold.swift; sourceTree = "<group>"; };
+		260A53A83DD9079E7418E4C4 /* NicheClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheClient.swift; sourceTree = "<group>"; };
+		2A4BD5704728F64A0254A75E /* DrawRay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawRay.swift; sourceTree = "<group>"; };
+		2CC22C7168482417515D3A4F /* NicheLatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheLatchTests.swift; sourceTree = "<group>"; };
+		30959B3619F9ED3E53755D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D25A8B0A8A5508CBCA917D3 /* VotiveDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotiveDay.swift; sourceTree = "<group>"; };
+		3E53EB5E56BF50DFB548D095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40209938F92BDB39AF1BB9AC /* NicheSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheSeed.swift; sourceTree = "<group>"; };
+		44259AC733E8950CF3A0A947 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4539AAAB0B475BCD4E2935F9 /* NicheCraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheCraft.swift; sourceTree = "<group>"; };
+		4A988CA19FDFB1D1F1EFEE60 /* NicheShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheShell.swift; sourceTree = "<group>"; };
+		57890BC4992C8CB3D5E6CA5F /* NicheFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheFoldTests.swift; sourceTree = "<group>"; };
+		5E2462E1FD0A5D7E598CCF18 /* NicheClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheClientTests.swift; sourceTree = "<group>"; };
+		5EBFD70472ED3BBAC01D7EED /* CatchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchSheet.swift; sourceTree = "<group>"; };
+		67FE13A96F5BA4CFF612F51F /* NicheCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheCopy.swift; sourceTree = "<group>"; };
+		6FE9E76DFDCD6D20ADF280AC /* NicheStoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheStoring.swift; sourceTree = "<group>"; };
+		7610D51FE97440445FD95832 /* NicheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheStore.swift; sourceTree = "<group>"; };
+		7D86257271024807FCBEA8A8 /* NicheOnboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheOnboard.swift; sourceTree = "<group>"; };
+		84357158D5C4607481004CEF /* RayMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayMark.swift; sourceTree = "<group>"; };
+		85781E5361BF2F839647148F /* CapsuleBloom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleBloom.swift; sourceTree = "<group>"; };
+		93A6CD0F72F42DC3A55F5FDB /* AediculeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AediculeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDF2682B3FFD8E9AE8A4DB3 /* GlowCoverflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowCoverflow.swift; sourceTree = "<group>"; };
+		9FF4B6ABA2EA1E4C7330DB01 /* NicheWash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheWash.swift; sourceTree = "<group>"; };
+		A4529D9546DB7227F0BE30DA /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		B344078454186A07364EF631 /* AediculeGMT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AediculeGMT.swift; sourceTree = "<group>"; };
+		B49E0B449ED75B043912AABE /* WickChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickChip.swift; sourceTree = "<group>"; };
+		BC0898E42DCD244B82E6907E /* NicheFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheFigures.swift; sourceTree = "<group>"; };
+		BFD46F4476CAD032E5C16CEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C27914E0B5F68DC61CA6FFAB /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		C5D205A95EF599819461B233 /* NicheWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheWatch.swift; sourceTree = "<group>"; };
+		C7C7E4E5EFEBFC5A8656D622 /* WickPace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickPace.swift; sourceTree = "<group>"; };
+		C83D54688EC322F227421BEE /* AediculeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AediculeApp.swift; sourceTree = "<group>"; };
+		CCEFFFF0A12F106F79CF0D7F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D23E45AEBEEF2EA9433389E8 /* Glow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glow.swift; sourceTree = "<group>"; };
+		D62A75DBAF532C74A8CA0C14 /* Aedicule.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Aedicule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BC3A48C787224790ED55E1 /* NicheLatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheLatch.swift; sourceTree = "<group>"; };
+		E3FC58913DA435743D01418F /* NicheDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheDocument.swift; sourceTree = "<group>"; };
+		E79578E755101C3BA7F6D65F /* NicheTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheTint.swift; sourceTree = "<group>"; };
+		EEFCFA26BD6A21A2ADDD1B27 /* GardenPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenPane.swift; sourceTree = "<group>"; };
+		FACADCA4F65094300A0F3B96 /* NicheWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheWatchTests.swift; sourceTree = "<group>"; };
+		FBCFB464F61CEAA0D36A13F6 /* MomentsPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsPane.swift; sourceTree = "<group>"; };
+		FD90F1BB8B7BA2F5569E678C /* NicheFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicheFace.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6335904D1231D412CCE70CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453D7F9BDBD7746622839A6D /* Alamofire in Frameworks */,
+				2AD7DBEB5495F25E602C2964 /* OneSignalFramework in Frameworks */,
+				4EA2EF078EEFF408F8D6280E /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E21F7C4DE8E28A5376764E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850425C8CC000709C482E364 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F49FB60681883CA752D75D3 /* Capsule */ = {
+			isa = PBXGroup;
+			children = (
+				85781E5361BF2F839647148F /* CapsuleBloom.swift */,
+				EEFCFA26BD6A21A2ADDD1B27 /* GardenPane.swift */,
+			);
+			path = Capsule;
+			sourceTree = "<group>";
+		};
+		408063DAB9E6832ED093C996 /* AediculeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B344078454186A07364EF631 /* AediculeGMT.swift */,
+				1751AF88157E668C58C22BA4 /* AediculeTests.swift */,
+				C27914E0B5F68DC61CA6FFAB /* FamilyInvariantTests.swift */,
+				5E2462E1FD0A5D7E598CCF18 /* NicheClientTests.swift */,
+				57890BC4992C8CB3D5E6CA5F /* NicheFoldTests.swift */,
+				2CC22C7168482417515D3A4F /* NicheLatchTests.swift */,
+				0EDA2D247CEB4326EB5FB50F /* NicheStoreTests.swift */,
+				FACADCA4F65094300A0F3B96 /* NicheWatchTests.swift */,
+			);
+			path = AediculeTests;
+			sourceTree = "<group>";
+		};
+		482AFC7880BC27492DDAC849 /* Glow */ = {
+			isa = PBXGroup;
+			children = (
+				5EBFD70472ED3BBAC01D7EED /* CatchSheet.swift */,
+				D23E45AEBEEF2EA9433389E8 /* Glow.swift */,
+				0402BDFAEFB01D052C923A52 /* GlowAlcove.swift */,
+				9EDF2682B3FFD8E9AE8A4DB3 /* GlowCoverflow.swift */,
+				FBCFB464F61CEAA0D36A13F6 /* MomentsPane.swift */,
+				3D25A8B0A8A5508CBCA917D3 /* VotiveDay.swift */,
+			);
+			path = Glow;
+			sourceTree = "<group>";
+		};
+		838225986E17F55C5440B40F /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CCEFFFF0A12F106F79CF0D7F /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		863BA359768C759C85483279 /* Aedicule */ = {
+			isa = PBXGroup;
+			children = (
+				C83D54688EC322F227421BEE /* AediculeApp.swift */,
+				A4529D9546DB7227F0BE30DA /* APIConfig.swift */,
+				3E53EB5E56BF50DFB548D095 /* AppDelegate.swift */,
+				30959B3619F9ED3E53755D4D /* Assets.xcassets */,
+				BFD46F4476CAD032E5C16CEE /* ContentView.swift */,
+				2F49FB60681883CA752D75D3 /* Capsule */,
+				482AFC7880BC27492DDAC849 /* Glow */,
+				B35328944BFC6F176BB8EA23 /* Niche */,
+				CA3ED6D09E40A574955DF65E /* RayMark */,
+				8BC9C6503E461E7D8BFD507D /* Wick */,
+			);
+			path = Aedicule;
+			sourceTree = "<group>";
+		};
+		8BC9C6503E461E7D8BFD507D /* Wick */ = {
+			isa = PBXGroup;
+			children = (
+				B49E0B449ED75B043912AABE /* WickChip.swift */,
+				175270DA37A924158C5772A2 /* WickFold.swift */,
+				C7C7E4E5EFEBFC5A8656D622 /* WickPace.swift */,
+			);
+			path = Wick;
+			sourceTree = "<group>";
+		};
+		B35328944BFC6F176BB8EA23 /* Niche */ = {
+			isa = PBXGroup;
+			children = (
+				260A53A83DD9079E7418E4C4 /* NicheClient.swift */,
+				67FE13A96F5BA4CFF612F51F /* NicheCopy.swift */,
+				4539AAAB0B475BCD4E2935F9 /* NicheCraft.swift */,
+				E3FC58913DA435743D01418F /* NicheDocument.swift */,
+				FD90F1BB8B7BA2F5569E678C /* NicheFace.swift */,
+				BC0898E42DCD244B82E6907E /* NicheFigures.swift */,
+				0825F192F064C9B819EA1F66 /* NicheHold.swift */,
+				D9BC3A48C787224790ED55E1 /* NicheLatch.swift */,
+				7D86257271024807FCBEA8A8 /* NicheOnboard.swift */,
+				40209938F92BDB39AF1BB9AC /* NicheSeed.swift */,
+				04798B24013C4655AD2FDE98 /* NicheSettings.swift */,
+				4A988CA19FDFB1D1F1EFEE60 /* NicheShell.swift */,
+				7610D51FE97440445FD95832 /* NicheStore.swift */,
+				6FE9E76DFDCD6D20ADF280AC /* NicheStoring.swift */,
+				E79578E755101C3BA7F6D65F /* NicheTint.swift */,
+				9FF4B6ABA2EA1E4C7330DB01 /* NicheWash.swift */,
+				C5D205A95EF599819461B233 /* NicheWatch.swift */,
+			);
+			path = Niche;
+			sourceTree = "<group>";
+		};
+		CA3ED6D09E40A574955DF65E /* RayMark */ = {
+			isa = PBXGroup;
+			children = (
+				2A4BD5704728F64A0254A75E /* DrawRay.swift */,
+				84357158D5C4607481004CEF /* RayMark.swift */,
+				044AACD23A1DB77741AC3F63 /* RayMarkPane.swift */,
+			);
+			path = RayMark;
+			sourceTree = "<group>";
+		};
+		D900BAB80361B34CA7E33DC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62A75DBAF532C74A8CA0C14 /* Aedicule.app */,
+				93A6CD0F72F42DC3A55F5FDB /* AediculeTests.xctest */,
+				44259AC733E8950CF3A0A947 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5EF044C2E659430F645F753 = {
+			isa = PBXGroup;
+			children = (
+				863BA359768C759C85483279 /* Aedicule */,
+				408063DAB9E6832ED093C996 /* AediculeTests */,
+				838225986E17F55C5440B40F /* OneSignalNotificationServiceExtension */,
+				D900BAB80361B34CA7E33DC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1C5EC57A18BD710329732C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96929F3B586CF65B9B276D60 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				9358C311DEECDCA500A3C3FC /* Sources */,
+				79E21F7C4DE8E28A5376764E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				A3427EAE668BB8F4F8D62D1B /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 44259AC733E8950CF3A0A947 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		917E9E54CA17737C2E87EBAE /* AediculeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9FFA70B07A5A1327C41055 /* Build configuration list for PBXNativeTarget "AediculeTests" */;
+			buildPhases = (
+				9C4307364BF41E9746E6BC5B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				453A51E36045D5D42B5D6073 /* PBXTargetDependency */,
+			);
+			name = AediculeTests;
+			packageProductDependencies = (
+			);
+			productName = AediculeTests;
+			productReference = 93A6CD0F72F42DC3A55F5FDB /* AediculeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4994AD34CC2725847D57F21 /* Aedicule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9433F9702D1613BFD5385255 /* Build configuration list for PBXNativeTarget "Aedicule" */;
+			buildPhases = (
+				E6FD072826C6FD6F8D0B0D0F /* Sources */,
+				093F6BF70F97F5162A616CF8 /* Resources */,
+				6335904D1231D412CCE70CC3 /* Frameworks */,
+				4F74AEC927591BBA0A403307 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45238B9AB4F10F480F2E95CB /* PBXTargetDependency */,
+			);
+			name = Aedicule;
+			packageProductDependencies = (
+				85E4F35840693D07C1B47315 /* Alamofire */,
+				C150A6E53C3C10A96DD459A2 /* OneSignalFramework */,
+				6D622B1499EDB09C25D209E9 /* OneSignalInAppMessages */,
+			);
+			productName = Aedicule;
+			productReference = D62A75DBAF532C74A8CA0C14 /* Aedicule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DFD4FBA2BA2990197BB18DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3B1C5EC57A18BD710329732C = {
+						ProvisioningStyle = Automatic;
+					};
+					917E9E54CA17737C2E87EBAE = {
+						ProvisioningStyle = Automatic;
+					};
+					A4994AD34CC2725847D57F21 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E45E03B997C025F805D61A5D /* Build configuration list for PBXProject "Aedicule" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F5EF044C2E659430F645F753;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9C6EE19C24E0FD966E72E60B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7AF94477F714226A9709B7D0 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D900BAB80361B34CA7E33DC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4994AD34CC2725847D57F21 /* Aedicule */,
+				917E9E54CA17737C2E87EBAE /* AediculeTests */,
+				3B1C5EC57A18BD710329732C /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093F6BF70F97F5162A616CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE457FE2FA8F8BA6078F98A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9358C311DEECDCA500A3C3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FDC402543AAC4C2AD35851 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4307364BF41E9746E6BC5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E08E2D042C74B618F95639 /* AediculeGMT.swift in Sources */,
+				751AEDD54AC689238A3DBC54 /* AediculeTests.swift in Sources */,
+				F0FA104A310B86ED38752FFD /* FamilyInvariantTests.swift in Sources */,
+				22E8EFF2047BCD904D7D56DA /* NicheClientTests.swift in Sources */,
+				C85C2C25DE78F9808E0F0144 /* NicheFoldTests.swift in Sources */,
+				04791A5E546B70E1005C4675 /* NicheLatchTests.swift in Sources */,
+				529DC65223E195E029C1B06D /* NicheStoreTests.swift in Sources */,
+				C9A9C23B3E6B62B6F2F351BB /* NicheWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FD072826C6FD6F8D0B0D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCFC47C56C9BCABC0D9E093 /* APIConfig.swift in Sources */,
+				7F7064741AB0D8D6F9733E7D /* AediculeApp.swift in Sources */,
+				6AD6E7EC2799459F0F7BACEC /* AppDelegate.swift in Sources */,
+				93C54EDF4B26F64B36ABE553 /* CapsuleBloom.swift in Sources */,
+				3BF57F291FFF8404113276E2 /* CatchSheet.swift in Sources */,
+				4B924BD1FA82DB736240821B /* ContentView.swift in Sources */,
+				8393E1A1EF3DD954EAFFC533 /* DrawRay.swift in Sources */,
+				C711F41A73269E4B8C01432D /* GardenPane.swift in Sources */,
+				9FEC3CF7083D9C304E25871A /* Glow.swift in Sources */,
+				9571DEEA647E2C0E25CB98F2 /* GlowAlcove.swift in Sources */,
+				08C5697EDA2D5496ADF17663 /* GlowCoverflow.swift in Sources */,
+				D007583AE559AC5BCCDD82FD /* MomentsPane.swift in Sources */,
+				83AC1C843ADE4347437DBAFC /* NicheClient.swift in Sources */,
+				6DB09A23F55F1F848DB46888 /* NicheCopy.swift in Sources */,
+				7E4879FDABDE5673956071A4 /* NicheCraft.swift in Sources */,
+				12DDACEF09BA9CDC217E655E /* NicheDocument.swift in Sources */,
+				ECADEF2C43B852764A07AD0A /* NicheFace.swift in Sources */,
+				6A3DFB92F1EA183B9C8C35E0 /* NicheFigures.swift in Sources */,
+				9240EF289027211C302CFD6B /* NicheHold.swift in Sources */,
+				853410C8142F4ED0F914AE95 /* NicheLatch.swift in Sources */,
+				479E1D3305F04C44A4675958 /* NicheOnboard.swift in Sources */,
+				F61E1D99297E5AC283149AC7 /* NicheSeed.swift in Sources */,
+				501FC2F6B14841CAD1D23C9C /* NicheSettings.swift in Sources */,
+				86EE4AD3D5F669BFDAA28FB7 /* NicheShell.swift in Sources */,
+				3141ED0AA0C3641DA219A5EA /* NicheStore.swift in Sources */,
+				EC56685F6C8FC7DD9FABD193 /* NicheStoring.swift in Sources */,
+				5DACE5238C2489AFC0F94233 /* NicheTint.swift in Sources */,
+				BFA892D5A24EBF79266E50D6 /* NicheWash.swift in Sources */,
+				50BFC36988FE91782FE2E071 /* NicheWatch.swift in Sources */,
+				1F4E3A1A3CADB6D5A1FE9C19 /* RayMark.swift in Sources */,
+				A9FA8B7F8CF79897B7BAA424 /* RayMarkPane.swift in Sources */,
+				4D6C45D5C6387F72633D792B /* VotiveDay.swift in Sources */,
+				CC415D96FCB8F64CAAFC76BF /* WickChip.swift in Sources */,
+				2669EBA9246BE6CCEDDB6700 /* WickFold.swift in Sources */,
+				CEB3D03FDE0ED0F3A4E32056 /* WickPace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45238B9AB4F10F480F2E95CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1C5EC57A18BD710329732C /* OneSignalNotificationServiceExtension */;
+			targetProxy = 73FD37E04C06DF708166C543 /* PBXContainerItemProxy */;
+		};
+		453A51E36045D5D42B5D6073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4994AD34CC2725847D57F21 /* Aedicule */;
+			targetProxy = 703AD04FFDFF69A80BDAA824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0775C184592609FCFCC3C85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aedicule.niche.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aedicule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aedicule";
+			};
+			name = Debug;
+		};
+		13E3C67E298D8A1E6CA759BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Aedicule.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Aedicule-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Aedicule;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Aedicule records a short voice clip onto today's Live glow. The clip stays on this device.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aedicule.niche;
+				PRODUCT_NAME = Aedicule;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34556349401C0A5FD7161B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aedicule.niche.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aedicule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aedicule";
+			};
+			name = Release;
+		};
+		534C7C997BFA12526052DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aedicule.niche.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B45649A21EDE39054099A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		7473AE6E3E007F410C8AD4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aedicule.niche.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93E29AE64672D66A9A8FA4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		95B39AF6F0F2E7A05B2FF4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Aedicule.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Aedicule-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Aedicule;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Aedicule records a short voice clip onto today's Live glow. The clip stays on this device.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aedicule.niche;
+				PRODUCT_NAME = Aedicule;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9FFA70B07A5A1327C41055 /* Build configuration list for PBXNativeTarget "AediculeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0775C184592609FCFCC3C85F /* Debug */,
+				34556349401C0A5FD7161B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9433F9702D1613BFD5385255 /* Build configuration list for PBXNativeTarget "Aedicule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E3C67E298D8A1E6CA759BF /* Debug */,
+				95B39AF6F0F2E7A05B2FF4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96929F3B586CF65B9B276D60 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7473AE6E3E007F410C8AD4D3 /* Debug */,
+				534C7C997BFA12526052DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E45E03B997C025F805D61A5D /* Build configuration list for PBXProject "Aedicule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E29AE64672D66A9A8FA4EB /* Debug */,
+				6B45649A21EDE39054099A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AF94477F714226A9709B7D0 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		9C6EE19C24E0FD966E72E60B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nf2nbm5m8f-oss/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D622B1499EDB09C25D209E9 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AF94477F714226A9709B7D0 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		85E4F35840693D07C1B47315 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C6EE19C24E0FD966E72E60B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A3427EAE668BB8F4F8D62D1B /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AF94477F714226A9709B7D0 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		C150A6E53C3C10A96DD459A2 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AF94477F714226A9709B7D0 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7DFD4FBA2BA2990197BB18DF /* Project object */;
+}

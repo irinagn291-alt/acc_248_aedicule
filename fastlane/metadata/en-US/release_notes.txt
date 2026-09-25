@@ -1,0 +1,10 @@
+Version 1.0 introduces Aedicule, a private on-device niche for mood, memory, and time.
+
+• Catch today's glow from Ember, Hush, Bloom, Tide, Hearth, Gleam, Still, or Lift
+• Attach Photo or Voice while a glow is Live; Midnight freezes attach
+• Draw a cooled Wick or Capsule as a Ray
+• Garden Capsules after more than 30 days, with living bloom and year collage
+• Moments, Garden, and Settings shell
+• Onboarding, Contact support link, and Reset all data on this device
+
+Portrait dark UI for iPhone and iPad. Requires iOS 17.0 or later.
