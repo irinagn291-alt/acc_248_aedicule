@@ -1,4 +1,4 @@
-<!-- gf-brief source=666771e06d052c5c2972b93c9df5409cfb498c134d60f3ee310c8fcf28c63977 written=2026-09-26T01:55:47+03:00 -->
+<!-- gf-brief source=666771e06d052c5c2972b93c9df5409cfb498c134d60f3ee310c8fcf28c63977 written=2026-09-26T01:56:13+03:00 -->
 # Aedicule
 
 ## What it is
